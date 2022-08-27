@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+html {
+    background-color: #7A6563;
+}
+
+.intro-page {
+    width: 70%;
+    margin: 5% auto 0 auto;
+    background-color: #ECE2D0;
+    border: 7px solid #D3A588;
+    border-radius: 25px;
+    box-shadow: 10px 10px 12px black;
+}
+
+.bioBody {
+    color: #7A6563;
+    padding: 1rem 4rem;
+    font-family: 'Lato', sans-serif;
+}
+
+ul {
+    padding-inline-start: 18px;
+}
+
+h2, h4 {
+    margin-bottom: 0;
+}
+
+.disclosure {
+    margin-top: 1.5rem;
+    color: white;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}

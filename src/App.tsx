@@ -1,24 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
+import snorlax from './images/snorlax.png'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="Main">
+        <h1 className='main-text'>
+          Hello, i'm working on redesigning this...once I find the energy to do so...
+        </h1>
+        <img src={snorlax} alt="Sleeping Snorlax" className='main-img'/>
+        <div className='main-footer'>
+          <p>For the meantime you can follow me on</p>
+          <a target="_blank" rel="noreferrer" href="https://twitter.com/nihaprezz">twitter</a>
+        </div>
+      </div>
     </div>
   );
 }

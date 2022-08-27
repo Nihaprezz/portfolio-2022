@@ -2,18 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
+.Main {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -24,15 +13,50 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.main-text {
+  padding: .75rem;
+  animation-duration: 5s;
+  animation-name: slidein;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 
-@keyframes App-logo-spin {
+.main-img {
+  width: 45%;
+}
+
+.main-footer {
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+}
+
+a {
+  color: lightblue;
+}
+
+a:hover {
+  opacity: .75;
+}
+
+@keyframes slidein {
   from {
-    transform: rotate(0deg);
+    color: #F9F871;
   }
+
+  25% {
+    color: #2FAF91;
+  }
+
+  50% {
+    color: #8CD881;
+  }
+
+  75% {
+    color: #00818A;
+  }
+
   to {
-    transform: rotate(360deg);
+    color: #F9F871;
   }
 }
